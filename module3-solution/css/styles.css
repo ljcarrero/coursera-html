@@ -32,6 +32,8 @@
 
 #header-nav{
   background-color: #666b6b;
+  background-color: gray;
+
   border-color: black;
   border-width: 2px;
   border-style: solid;
@@ -75,6 +77,7 @@ h2{
 	color: black;
 	font-size: 1.3em;  
 	font-weight: bold; 
+	padding-top: 10px;
 }
 
 /*END HOME PAGE*/
