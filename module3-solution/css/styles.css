@@ -1,0 +1,125 @@
+*{
+  font-family: 'Lora', serif;
+} 
+
+
+#nav-list li { 
+  border-top-color: black;
+  border-top-width: 2px;
+  border-top-style: solid;    
+  background-color: white;  
+}
+
+#nav-list li:first-child{
+  border-width: 0px;   
+}
+
+#nav-list a{
+	color:black;	
+	font-size: 1.2em;
+}
+
+#collapsable-nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#collapsable-nav{
+  border-top-color: black;
+  border-top-width: 0px;
+  border-top-style: solid;
+}
+
+#header-nav{
+  background-color: #666b6b;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0px;
+}
+
+.navbar-brand h1{  
+  color: black;
+  font-size: 1.5em;  
+  font-weight: bold;  
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+h2{
+  color: black;
+  font-size: 1.5em;  
+  font-weight: bold;  
+}
+
+.content-panel{
+	text-align: left;
+	background-color: gray;
+	color: black;
+}
+
+.content-panel p{
+	padding: 20px;
+	padding-top: 0px;
+}
+
+.content-panel a{
+	 color: #5003e7;
+	 font-size: 1.3em;
+	 font-weight: bold; 	 
+}
+
+#menus h3{
+	text-align: center;
+	color: black;
+	font-size: 1.3em;  
+	font-weight: bold; 
+}
+
+/*END HOME PAGE*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /*#collapsable-nav, #header-nav, #nav-list{
+  	visibility: hidden;
+  }*/
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  /*#collapsable-nav, #header-nav, #nav-list{
+  	visibility: hidden;
+  }
+  
+  /* End Header */
+
+  /* Home Page */
+  
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  /*#collapsable-nav, #header-nav, #nav-list{
+  	visibility: hidden;
+  }
+  
+  /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  
+  /* End Header */
+
+  /* Home Page */
+  
+
+}
+
+
